@@ -1,0 +1,30 @@
+1. My conclusion: 
+
+The best states are...
+
+<state, mean normalized procedure score>
+DC	0.09103494114212471
+MD	0.078175366272216
+SC	0.04826619281615253
+DE	0.04662203548004433
+CA	0.04631327787429379
+NC	0.045625351462404685
+NJ	0.042990071030238906
+MA	0.04023245391909355
+NY	0.039983537887730534
+RI	0.037234343609612544
+
+
+2. Why this approach is appropriate:
+
+For justification of the mean normalized procedure score is described in the best hospital justifications.
+
+To find the best states, I simply calculated the mean normalized procedure score across all the measures and hospitals in the state. 
+
+
+
+3. Why these results support my conclusion:
+
+DC and Maryland are both great in health care. 
+
+The states with the highest mean normalized procedure scores are likely the ones with the best health care.

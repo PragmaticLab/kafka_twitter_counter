@@ -1,0 +1,29 @@
+1. My conclusion: 
+
+The procedures with the highest variability are...
+
+EDV	Emergency Department Volume	0.14066288164571422
+OP_31	Percentage of patients aged 18 years and older who had cataract surgery and had improvement in visual function achieved within 90 days following the cataract surgery	0.08565066174207449
+OP_2	Fibrinolytic Therapy Received Within 30 Minutes of ED Arrival	0.06371224742620361
+OP_29	Appropriate Follow-Up Interval for Normal Colonoscopy in Average Risk Patients	0.060039958308116786
+OP_23	Head CT or MRI Scan Results for Acute Ischemic Stroke or Hemorrhagic Stroke Patients who Received Head CT or MRI Scan Interpretation Within 45 minutes of ED Arrival	0.03970367300586667
+OP_30	Colonoscopy Interval for Patients with a History of Adenomatous Polyps - Avoidance of Inappropriate Use	0.03716908658403613
+STK_4	Thrombolytic Therapy	0.02658035437258476
+OP_1	Median Time to Fibrinolysis	0.018644746340072797
+IMM_2	Influenza Immunization	0.017682663211899423
+VTE_5	Venous Thromboembolism Warfarin Therapy Discharge Instructions	0.017428298999732025
+
+
+2. Why this approach is appropriate:
+
+I transformed the raw procedure scores by standardizing them. (score - min) / (max - min). This transformation turns scores into the range of 0 to 1. 
+
+For this question, I chose to standardize instead of normalize because normalization converts each measure to have unit variance. However, we are interested in how procedures differ in their standardized variance.
+
+I found the procedures with the greatest variance by finding the variance of a measurement across all hospitals. 
+
+3. Why these results support my conclusion:
+
+The variance of procedures across hospitals give us a sense of how much the quality of a procedure vary across hospitals.
+
+For instance, the standardized variance of OP_31 is 0.0856.

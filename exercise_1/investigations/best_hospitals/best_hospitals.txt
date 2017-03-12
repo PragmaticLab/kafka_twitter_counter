@@ -1,0 +1,40 @@
+1. My conclusion: 
+
+The best hospitals are...
+
+<provider_id, hospital name, mean procedure score> 
+330028	RICHMOND UNIVERSITY MEDICAL CENTER	0.5330867228425055
+291302	WILLIAM BEE RIRIE HOSPITAL	0.530719641361526
+400079	HOSP COMUNITARIO BUEN SAMARITANO	0.42949073632403356
+050376	LAC/HARBOR-UCLA MED CENTER	0.3881947357652162
+310119	UNIVERSITY HOSPITAL	0.3583175613879889
+330080	LINCOLN MEDICAL & MENTAL HEALTH CENTER	0.3580135821481354
+301309	MONADNOCK COMMUNITY HOSPITAL	0.337406343247095
+110122	SOUTH GEORGIA MEDICAL CENTER	0.30844047778737366
+050599	UNIVERSITY OF CALIFORNIA DAVIS MEDICAL CENTER	0.3084154919706358
+010087	UNIVERSITY OF SOUTH ALABAMA MEDICAL CENTER	0.29493893710719116
+
+
+2. Why this approach is appropriate:
+
+I realized that different measurements have different ranges of scores. 
+
+For instance, 
+<measure_id, mean procedure score> 
+EDV	2.2115550445530325
+ED_1b	276.96907216494844
+ED_2b	100.49224067519738
+IMM_2	91.78580201424711
+
+Therefore in order to figure out how to compare different measurements, I have to normalize the scores to zero mean and unit variance. The results are stored in the procedure_normalized table.
+
+I do understand that different measurements can still have different central tendencies even after normalization, but this is probably the best that I can do in reasonable time.
+
+I also realize that a high score for some measurement is bad, while for some it's good. I chose to ignore the cases where a high score correspond to bad performance because a high score is good in the majority of the measurements.
+
+Then, for each hospital / provider_id, I simply found the mean normalized procedure score. This serves as an aggregated statistic to describe the performance of a hospital.
+
+
+3. Why these results support my conclusion:
+
+The best hospitals are ones that does well across a variety of procedures. Therefore the higher the mean normalized score across the procedures the better a hospital is.

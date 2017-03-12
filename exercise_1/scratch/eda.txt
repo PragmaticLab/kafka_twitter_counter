@@ -1,0 +1,47 @@
+draw.io
+
+### Hospital General Information:
+
+"Provider ID","Hospital Name","Address","City","State","ZIP Code","County Name","Phone Number","Hospital Type","Hospital Ownership","Emergency Services","Meets criteria for meaningful use of EHRs","Hospital overall rating","Hospital overall rating footnote","Mortality national comparison","Mortality national comparison footnote","Safety of care national comparison","Safety of care national comparison footnote","Readmission national comparison","Readmission national comparison footnote","Patient experience national comparison","Patient experience national comparison footnote","Effectiveness of care national comparison","Effectiveness of care national comparison footnote","Timeliness of care national comparison","Timeliness of care national comparison footnote","Efficient use of medical imaging national comparison","Efficient use of medical imaging national comparison footnote"
+
+* things like Timeliness of care national comparison are just descriptions
+
+### Timely and Effective Care: 
+
+"Provider ID","Hospital Name","Address","City","State","ZIP Code","County Name","Phone Number","Condition","Measure ID","Measure Name","Score","Sample","Footnote","Measure Start Date","Measure End Date"
+
+* provider id
+* measure id
+
+* seem to be procedure info
+
+
+### Readmission and Deaths:
+
+"Provider ID","Hospital Name","Address","City","State","ZIP Code","County Name","Phone Number","Measure Name","Measure ID","Compared to National","Denominator","Score","Lower Estimate","Higher Estimate","Footnote","Measure Start Date","Measure End Date"
+
+* more procedure stuff?
+
+### Measure Dates:
+
+"Measure Name","Measure ID","Measure Start Quarter","Measure Start Date","Measure End Quarter","Measure End Date"
+
+### hvbp_hcalps: (pg 59)
+
+Provider Number,Hospital Name,Address,City,State,ZIP Code,County Name,Communication with Nurses Floor,Communication with Nurses Achievement Threshold,Communication with Nurses Benchmark,Communication with Nurses Baseline Rate,Communication with Nurses Performance Rate,Communication with Nurses Achievement Points,Communication with Nurses Improvement Points,Communication with Nurses Dimension Score,Communication with Doctors Floor,Communication with Doctors Achievement Threshold,Communication with Doctors Benchmark,Communication with Doctors Baseline Rate,Communication with Doctors Performance Rate,Communication with Doctors Achievement Points,Communication with Doctors Improvement Points,Communication with Doctors Dimension Score,Responsiveness of Hospital Staff Floor,Responsiveness of Hospital Staff Achievement Threshold,Responsiveness of Hospital Staff Benchmark,Responsiveness of Hospital Staff Baseline Rate,Responsiveness of Hospital Staff Performance Rate,Responsiveness of Hospital Staff Achievement Points,Responsiveness of Hospital Staff Improvement Points,Responsiveness of Hospital Staff Dimension Score,Pain Management Floor,Pain Management Achievement Threshold,Pain Management Benchmark,Pain Management Baseline Rate,Pain Management Performance Rate,Pain Management Achievement Points,Pain Management Improvement Points,Pain Management Dimension Score,Communication about Medicines Floor,Communication about Medicines Achievement Threshold,Communication about Medicines Benchmark,Communication about Medicines Baseline Rate,Communication about Medicines Performance Rate,Communication about Medicines Achievement Points,Communication about Medicines Improvement Points,Communication about Medicines Dimension Score,Cleanliness and Quietness of Hospital Environment Floor,Cleanliness and Quietness of Hospital Environment Achievement Threshold,Cleanliness and Quietness of Hospital Environment Benchmark,Cleanliness and Quietness of Hospital Environment Baseline Rate,Cleanliness and Quietness of Hospital Environment Performance Rate,Cleanliness and Quietness of Hospital Environment Achievement Points,Cleanliness and Quietness of Hospital Environment Improvement Points,Cleanliness and Quietness of Hospital Environment Dimension Score,Discharge Information Floor,Discharge Information Achievement Threshold,Discharge Information Benchmark,Discharge Information Baseline Rate,Discharge Information Performance Rate,Discharge Information Achievement Points,Discharge Information Improvement Points,Discharge Information Dimension Score,Overall Rating of Hospital Floor,Overall Rating of Hospital Achievement Threshold,Overall Rating of Hospital Benchmark,Overall Rating of Hospital Baseline Rate,Overall Rating of Hospital Performance Rate,Overall Rating of Hospital Achievement Points,Overall Rating of Hospital Improvement Points,Overall Rating of Hospital Dimension Score,HCAHPS Base Score,HCAHPS Consistency Score
+
+* provider id
+* scores
+
+
+Floor    
+Achievement Threshold - 50th percentile
+Benchmark - mean top percentile
+Baseline Rate 
+Performance Rate    
+Achievement Points    
+Improvement Points    
+Dimension Score
+
+
+
