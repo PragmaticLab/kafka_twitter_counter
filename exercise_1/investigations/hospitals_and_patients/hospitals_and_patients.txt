@@ -1,0 +1,29 @@
+1. My conclusion: 
+
+Patient survey scores and procedure scores are weakly negatively correlated.
+
+The correlation is -0.32576534122486833.
+
+
+2. Why this approach is appropriate:
+
+I explained the mean normalized procedure score for hospitals in the best_hospital question.
+
+I then came up the aggregate_achievement score as the average of a hospital's achievement score across all 8 department surveys.
+
+Note that I took the achievement score across the categories because it is already a standardized variable from 0 to 10, calculated from the threshold and benchmark of this measure, where the threshold is 50th percentile and benchmark is the mean top percentile.
+
+At this point, for each hospital, we have the aggregate_achievement score for the survey and the mean normalized procedure score for the procedure scores. 
+
+I then took a pearson correlation to see if the scores are positively or weakly and strongly or weakly correlated.
+
+
+
+3. Why these results support my conclusion:
+
+I'd expect the survey and scores to be positively and weakly correlated. However, my result is negatively and weakly correlated.
+
+This might be because in the best_hospital question, I failed to account that a high score is bad for some measures. 
+
+It is also possible that the survey feedback and procedure quality are actually weakly negatively correlated. For instance, the survey scores are mainly measured by doctors, while the procedure scores are measured by patients. And the two groups score negatively to each other. 
+
